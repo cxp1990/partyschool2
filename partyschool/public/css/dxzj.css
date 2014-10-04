@@ -1,0 +1,26 @@
+.main-content form table th{
+	line-height: 3;
+}
+.main-content form table th img{
+	width: 30px;
+	height: 30px;
+}
+.main-content form .btn-submit{
+	width: 8%;
+}
+.main-content form table td .check-change{
+	width: 21px;
+	height: 21px;
+	display: inline-block;
+	margin: 11px 0 0 5px;
+}
+.main-content .info .submit{
+	width: 11%;
+}
+.main-container .main-title h2{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.main-container form .st-name{
+	width: 30%;
+}

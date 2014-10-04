@@ -1,0 +1,47 @@
+body{
+	background: #C0D1E2;
+}
+#main{
+	width: 1000px;
+	margin: 80px auto 0 auto;
+	height: 430px;
+	border: 1px solid #d1d6db;;
+	border-radius: 8px;
+	background: #FFF;
+}
+
+#main .main-content{
+	width: 800px;
+	/*height: 460px;*/
+	margin: 20px auto;
+	/*border: 1px solid;*/
+}
+#main .main-content .content-title{
+	margin-top: 75px;
+}
+#main .main-content .content-title h2{
+	text-align: center;
+}
+#main .main-content .content-title p{
+	font-size: 16px;
+	color: #CCC;
+	margin: 15px 0 15px 35%;
+}
+#main .main-content .content-form form{
+	width: 30%;
+	margin: 0 auto;
+}
+#main .main-content .content-form form .submit-change{
+	margin: 10px 0 0 42%;
+}
+#main .main-content:after{
+	position: relative;
+	z-index: -1;
+	width: 1000px;
+	content: "";
+	padding: 20px;
+	display: block;
+	height: 10px;
+	border-radius: 10px;
+	box-shadow: -92px 85px 20px rgba(2,37,69,.6);
+}

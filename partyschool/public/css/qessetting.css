@@ -1,0 +1,96 @@
+.main-container h3{
+	color: #777272;
+}
+.main-container .main-title form input{
+	display: inline-block;
+}
+.main-title form span{
+	font-weight:bold;
+	color: #777272;
+	font-size: 16px; 
+}
+.main-title form label{
+	margin-left: 60px;
+	color: #777272;
+}
+.main-title form .classdate{
+	width: 8%;
+}
+#test-time{
+	width: 20%;
+}
+#timu-num{
+	width: 25%;
+}
+.main-title form button{
+	width: 8%;
+}
+.main-container .ques-exp{
+	margin-bottom: 30px;
+}
+.main-container .ques-exp .exp-container{
+	margin-top: 30px;
+	width: 100%;
+	height: 237px;
+	border: 1px solid #d1d6db;
+	border-radius: 8px;
+	background: #FFF;
+	color: #CCC;
+}
+.ques-exp .exp-container h3{
+	margin: 15px;
+	color: #CCC;
+	font-weight: bold;
+}
+.exp-container .question{
+	margin: 15px 0 0 15px;
+	padding-bottom: 10px;
+	position: relative;
+}
+.exp-container .question span{
+	color: #CCC;
+	display: inline-block;
+	margin-left: 85%;
+	font-weight: bold;
+}
+.ques-exp .exp-container .question:after{
+	position: relative;
+	z-index: -1;
+	width: 787px;
+	content: "";
+	/*padding: 20px;*/
+	display: block;
+	height: 10px;
+	border-radius: 10px;
+	box-shadow: -10px 7px 10px rgba(2,37,69,.6);
+}
+.main-container .question-container{
+	margin-top: 30px;
+	width: 100%;
+	height: 203px;
+	border: 1px solid #d1d6db;
+	border-radius: 8px;
+	background: #FFF;
+}
+.question-container .question{
+	margin: 15px 0 0 15px;
+	padding-bottom: 10px;
+	position: relative;
+}
+.question-container .question span{
+	color: rgb(255, 5, 5);
+	display: inline-block;
+	margin-left: 85%;
+	font-weight: bold;
+}
+.question-container .question:after{
+	position: relative;
+	z-index: -1;
+	width: 787px;
+	content: "";
+	/*padding: 20px;*/
+	display: block;
+	height: 10px;
+	border-radius: 10px;
+	box-shadow: -9px 12px 10px rgba(2,37,69,.6);
+}

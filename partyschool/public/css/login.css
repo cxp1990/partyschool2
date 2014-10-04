@@ -1,0 +1,31 @@
+body{
+	background: #C0D1E2;
+}
+.container .col-md-offset-3 img{
+	display: block;
+	margin: 100px auto 5px;
+	width: 90px;
+	height: 90px;
+}
+.container form legend{
+	padding-bottom: 5px;
+	font-size: 22px;
+	color: #8F6D6D;;
+	text-align: center;
+	margin: 0 auto 20px auto;
+	width: 70%;
+	border-bottom: 1px solid #C9C5C6;
+}
+.container form .form-group .checkbox .label{
+	margin-left: 0;
+}
+.container form .form-pos{
+	width: 66%;
+	margin: 0 0 15px 22%;
+}
+.container form .form-clearleft{
+	margin-left: 0px;
+}
+.container form .form-group .btn-primary{
+	float: right;
+}

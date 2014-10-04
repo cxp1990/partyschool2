@@ -1,0 +1,80 @@
+body{
+	background: #C0D1E2;
+}
+.main-container{
+	width: 800px;
+	margin: 80px auto 30px auto;
+	
+}
+.main-container .main-title form input,.main-container .main-title form select{
+	display: inline-block;
+}
+
+.main-title form span{
+	font-weight:bold;
+	color: #777272;
+	font-size: 16px; 
+}
+.main-title form label{
+	margin-left: 23px;
+	color: #777272;
+}
+.main-title form .classdate{
+	width: 8%;
+}
+#search{
+	width: 9%;
+}
+#xiaoqu{
+	width: 15%;
+}
+#xueyuan{
+	width: 24%;
+}
+#banji{
+	width: 15%;
+}
+.main-container .main-content{
+	margin-top: 30px;
+	width: 100%;
+	border: 1px solid #d1d6db;
+	border-radius: 8px;
+	background: #FFF;
+}
+.main-content form{
+	width: 96%;
+	margin:20px auto 15px auto;
+}
+.main-content form table{
+	border-bottom: 2px solid #CCC;
+	margin-bottom: 10px;
+}
+.main-content form table tr td{
+	line-height: 3;
+}
+.main-content form table tr td .del-icon{
+	cursor: pointer;
+}
+.main-content form .btn-submit{
+	margin-left: 80%;
+	width: 8%;
+}
+.main-content form table tr td .chengji{
+	width: 25%;
+	display: inline-block;
+}
+.main-content form table tr td img{
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+}
+.main-content .banzhuren,.main-content .info{
+	width: 96%;
+	margin: 10px auto;
+}
+.main-content .info textarea{
+	resize: none;
+}
+.main-content .info button{
+	margin-left: 89%;
+}

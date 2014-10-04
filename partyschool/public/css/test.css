@@ -1,0 +1,55 @@
+ul{
+	list-style: none;
+	padding: 0px;
+	text-align: center;
+}
+li{
+	display: inline-block;
+}
+span{
+	color: red;
+}
+#content{
+	width: 100%;
+	position: absolute;
+	top:15%;
+	
+}
+#content .time{
+	word-spacing: 1em;
+	font-size: 3.5vw;
+	font-family: '微软雅黑';
+	color: gray;
+}
+.question{
+	width: 90%;
+	margin:auto;
+	font-size: 5vw;
+	font-family: '微软雅黑';
+	padding: 0.5em;
+	
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+#content .question li{
+	margin: auto;
+	display: block;
+	width: 100%;
+	text-align: left;
+	line-height: 200%;
+}
+#content .button li{
+	margin-top: 1em;
+	width: 20%;
+}
+#content input{
+	border: none;
+	text-align: center;
+	width:90%; 
+	font-size: 3.5vw;
+	color: white;
+	background-color: rgb(219,85,101);
+	border-radius: 0.2em;
+	line-height: 2em;
+
+}

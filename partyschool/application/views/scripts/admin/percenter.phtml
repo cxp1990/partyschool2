@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>个人中心</title>
+	<link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="/css/pschange.css">
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="/assets/js/html5shiv.min.js?v=f7c242d291"></script>
+  <script src="/assets/js/respond.min.js?v=f7c242d291"></script>
+<![endif]-->
+<!-- Favicons -->
+</head>
+<body class="home-template">
+	<div class="navbar navbar-inverse navbar-fixed-top">
+  		<div class="container">
+    		<div class="navbar-header">
+      			<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        			<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+      			<span class="navbar-brand" style="color:#FFF;font-size: 20px;">党校党班管理系统</span>
+    		</div>
+    		<div class="navbar-collapse collapse" role="navigation">
+      			<ul class="nav navbar-nav">
+        			<li><a href="/admin/dxzj">党校总结</a></li>
+        			<li><a href="/admin/percenter" style="color: #FFF;">个人中心</a></li>
+      			</ul>
+      			<ul class="nav navbar-nav navbar-right">
+        		<li><a href="#"><span style="color: #FFF">欢迎您，  班主任</span>  退出</a></li>
+      			</ul>
+    		</div>
+  		</div>
+	</div>
+	<div id="main">
+    <div class="main-content">
+      <div class="content-title">
+        <h2>第52期党校党员班</h2>
+        <p>班主任姓名：<span>张三三</span></p>
+      </div>
+      <div class="content-form">
+        <form class="form-horizontal" role="form">
+          <div class="form-group form-pos">
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="pschange" placeholder="输入要新密码">
+            </div>
+          </div>
+          <div class="form-group form-pos">
+            <div class="col-sm-10 ">
+              <input type="password" class="form-control" id="inputPassword3" placeholder="确认密码">
+            </div>
+          </div>
+          <div class="form-group from-pos">
+            <div class="col-sm-3 submit-change">
+              <button id="submit" class="btn btn-primary">提交修改</button>
+            </div>
+          </div>
+           
+        </form>
+      </div>
+    </div>
+	</div>
+	<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+</body>
+</html>

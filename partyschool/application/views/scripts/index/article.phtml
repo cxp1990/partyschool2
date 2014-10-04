@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<meta name="title" content="Sign Succeed">
+	<meta name="apple-touch-fullscreen" content="YES">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<title>掌上党校--资讯文章</title>
+	
+	<link rel="stylesheet" type="text/css" href="/css/article.css">
+</head>
+<body>
+	<div class="header">
+		<img src="/images/h_bg.png" id="header-bg">
+		<a href="/index/"><img src="/images/home.jpg" id="home-link"></a>
+	</div>
+
+	<div class="content">
+		<div class="container">
+			<?php
+					if($this->article){
+						$id = $this->article->id;
+						$title = $this->article->title;
+						$content =$this->article->content;
+						echo "<div class=\"content-title\">".$title."</div>";
+						echo "<div class=\"content-p\">".$content."</div>";
+					}
+			?>					
+		</div>
+	</div>
+	<div class="footer">
+		<img src="/images/footer.png">
+	</div>
+</body>
+</html>
