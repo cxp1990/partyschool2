@@ -1,0 +1,41 @@
+
+#content{
+	
+	position: absolute;
+	top:8%;
+	color: red;
+}
+#content div{
+	font-weight: bold;
+	line-height: 200%;
+	font-size: 5.5vw;
+	padding-top: 4%;
+	padding-left: 10%;
+	
+}
+#content dd,dt,dl{
+	display: inline-block;
+}
+#content dt,dd{
+	line-height: 7vw;
+	text-align: center;
+}
+#content dl{
+	border-bottom: 1px solid black;
+	border-top:1px solid black;
+}
+#content dl dt{
+	
+	width: 24%;
+	float: left;
+	font-size: 3vw;
+}
+#content dd{
+	width: 76%;
+	float: right;
+	font-size: 4.5vw;
+	text-align: left;
+}
+#content dd,dt{
+	
+}

@@ -1,0 +1,72 @@
+body,main{
+	margin: 0px;
+	padding: 0px 0px;
+}
+
+.main{
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+	display: block;
+}
+
+#home{
+	z-index: 1;
+	width: 8.6%;
+	height: 3.85%;
+	position: absolute;
+	right: 3%;
+	top: 2.6%;
+}
+
+#notice{
+	width: 100%;
+	z-index: 1;
+	position: absolute;
+	text-align: center;
+	bottom: 13%;
+	font:2.5em;
+	font-family: '宋体';
+	text-decoration: none;
+}
+
+a:link{
+	text-decoration:none;
+	cursor:hand;
+}
+
+#module1{
+	width: 40%;
+	height: 21.3%;
+	position: absolute;
+	z-index: 1;
+	top: 31.2%;
+	left: 7.2%;
+}
+
+#module2{
+	width: 40%;
+	height: 21.3%;
+	position: absolute;
+	z-index: 1;
+	top: 31.2%;
+	left: 50.4%;
+}
+
+#module3{
+	width: 40%;
+	height: 21.3%;
+	position: absolute;
+	z-index: 1;
+	top: 58.4%;
+	left: 7.2%;
+}
+
+#module4{
+	width: 40%;
+	height: 21.3%;
+	position: absolute;
+	z-index: 1;
+	top: 58.4%;
+	left: 50.4%;
+}

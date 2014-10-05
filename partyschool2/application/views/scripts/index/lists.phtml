@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<meta name="title" content="Sign Succeed">
+	<meta name="apple-touch-fullscreen" content="YES">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<title>掌上党校--文章列表</title>
+	<link href="/css/base.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="/css/lists.css">
+</head>
+
+<body>
+	<div class = "main">
+		<img src="/images/base_bg.jpg" height="100%" width="100%"/>
+		<div id = "home">
+			<a href="../" ><img src="/images/home.jpg" height="100%" width="100%"/></a>
+		</div>
+		<div id="content">
+			<div>2014年9月</div>
+			<dl>
+				<!-- <dt><?php //echo $this->article->publisedtime?></dt>
+				<dd><a href="#"><?php //echo $this->article->title?></a></dd>
+				<dt>2014-8-12</dt>
+				<dd><a href="#">习近平在邓小平诞辰110周年讲话</a></dd>
+				<dt>2014-8-12</dt>
+				<dd><a href="#">习近平在邓小平诞辰110周年讲话</a></dd>
+				<dt>2014-8-12</dt>
+				<dd><a href="#">习近平在邓小平诞辰110周年讲话</a></dd> -->
+				<?php
+					if ($this->arrList) {
+						foreach ($this->arrList as $artcileList) {
+							$id = $artcileList['id'];
+							$publisedtime = date('Y-m-d',$artcileList['publisedtime']);
+							$title = $artcileList['title'];
+							$len = strlen($title);
+							if ($len > 51) {
+								$title = substr($title, 0,39)."...";
+							}
+							// echo "zishu:".strlen($title);
+							echo "<dt>".$publisedtime."</dt>";
+							echo "<dd><a href='/index/article/id/".$id."'>".$title."</a></dd>";
+						}
+					}else{
+						echo "shit";
+					}
+				?>
+			</dl>
+		<!-- 	<div>2014年12月</div> -->
+			<!-- <dl>
+				<dt>2014-8-12</dt>
+				<dd><a href="#">习近平在邓小平诞辰110周年讲话</a></dd>
+				<dt>2014-8-12</dt>
+				<dd><a href="#">习近平在邓小平诞辰110周年讲话</a></dd>
+				<dt>2014-8-12</dt>
+				<dd><a href="#">习近平在邓小平诞辰110周年讲话</a></dd>
+				<dt>2014-8-12</dt>
+				<dd><a href="#">习近平在邓小平诞辰110周年讲话</a></dd>
+			</dl> -->
+		</div>
+	</div>
+</body>
+<html></html>

@@ -1,0 +1,56 @@
+body{
+	background: #C0D1E2;
+}
+#main{
+	width: 1000px;
+	margin: 80px auto 0 auto;
+	height: 465px;
+	border: 1px solid #d1d6db;;
+	border-radius: 8px;
+	background: #FFF;
+}
+#main .main-content{
+	width: 800px;
+	/*height: 460px;*/
+	margin: 20px auto;
+	/*border: 1px solid;*/
+}
+#main .main-content .content-title{
+	margin-top: 45px;
+}
+#main .main-content .content-title h3{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.main-content .content-title h3 input{
+	width: 9%;
+	display: inline-block;
+}
+#main .main-content .content-form form .group-form{
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+#main .main-content .content-form form label{
+	color:#CCC;
+}
+#main .main-content .content-form form .form-date{
+	width: 40%;
+	display: inline-block;
+}
+#main .main-content .content-form form span{
+}
+#main .main-content .content-form form .formbtn-right{
+	float: right;
+	margin-right: 4%;
+}
+#main .main-content:after{
+	position: relative;
+	z-index: -1;
+	width: 990px;
+	content: "";
+	padding: 20px;
+	display: block;
+	height: 10px;
+	border-radius: 10px;
+	box-shadow: -95px 127px 20px rgba(2,37,69,.6);
+}

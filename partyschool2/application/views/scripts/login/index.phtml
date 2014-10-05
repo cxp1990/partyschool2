@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <!-- 弹窗样式 -->
+    <link id="artDialogSkin" href="/skin/aero/aero.css" rel="stylesheet" type="text/css" />
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+		*{
+			margin: 0;padding: 0;border: 0;
+		}
+		html{
+			background-color: rgb(242,242,242);
+		}		
+		.loginbox{
+			width: 1024px;
+			height: 512px;
+			margin-left: -514px;
+			margin-top: 60px;
+			position:relative;
+			left: 50%;
+			background:url(../images/bg_login.jpg) no-repeat;
+		}
+		.loginbox img{
+			width: 89px;
+			height: 89px;
+			margin-top: 13px;
+			margin-left: 135px;
+		}
+		.formbox{
+			background-color: white;
+			padding-top: 17px;
+			padding-left: 20px;
+			margin-left: 86px;
+			margin-top: 15px;
+		}
+		.row h1{
+			font-family: 'Arial Negreta', 'Arial';
+			padding-top: 5px;
+			font-weight: bold;
+		}
+		.row h4{
+			font-family: '黑体';
+			padding-top: 11px;
+			padding-left: 170px;
+		}
+		.row p{
+			padding-top: 17px;
+			padding-right:20px;
+			padding-left: 20px;
+		}
+		button{
+			margin-left: 70px;
+		}
+		#login{
+			width: 30%;
+		}
+    </style>
+</head>
+<body>
+	<div class="container">
+		<div class="loginbox">
+			<div class="row">
+				<div class="col-md-3"><img src="/images/logo.png"></div>
+				<div class="col-md-6">
+				<h1>掌上党校后台管理登录系统</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5">
+					<h4>用户登录</h4>
+					<form role="form" class="formbox col-md-8" action="/login/login" method="post">
+						<div class="form-group">
+							<label for="inputtext" class="label-control">用户名</label>
+							<input class="form-control" type="text" id="inputtext" name="username">
+						</div>
+						<div class="form-group">
+							<label for="inputpassword" class="label-control">密码</label>
+							<input type="password" id="inputpassword" name="password" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>									
+								<input class="form-controll"type="checkbox">
+								记住用户名
+							</label>
+							<button type="submit" class="btn btn-primary" id="login">登录</button>
+						</div>
+					</form>
+				</div>
+				<div class="col-md-6">
+					<h4 style="padding-left:190px;">用户须知</h4>
+					<p>1，各个管理账号和密码：用户名统一为admin+学院简称首字母缩写。密码：学院与密码一致。
+					<br/>2，当每一个院的班主任输入相应的账号和密码后，页面出现相对应的学院的所有人的报名信息，而每一个用户后面会有“删除”按钮，“未毕业”、，“非优秀”，点击删除即可以直接删除；点击“未毕业”，状态改为“毕业”，点击“非优秀”状态改为“优秀”。同时，班主任还可以增加用户，只需要填写学号即可，后台自动匹配并将此记录加入数据库(此情况下的用户由班主任提醒相应的学生进行报名并实名认证)。
+					<br/>3，超级管理员拥有最主权限。
+					<br/>4，如有任何疑问，请联系大学生发展网络教育中心。联系电话：13721107520 
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/artDialog.js"></script>
+    <script type="text/javascript" src="/js/login.js"></script>
+</body>
+</html>

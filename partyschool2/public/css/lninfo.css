@@ -1,0 +1,54 @@
+body{
+	background: #C0D1E2;
+}
+.main-container{
+	width: 800px;
+	margin: 80px auto 30px auto;
+	
+}
+.main-container .main-content{
+	margin-top: 20px;
+	width: 100%;
+	border: 1px solid #d1d6db;
+	border-radius: 8px;
+	background: #FFF;
+}
+.main-content form{
+	width: 95%;
+	margin:20px auto 15px auto;
+}
+.main-content form .title-container  .checkbox{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #CCC;
+}
+.main-content form .title-container  .checkbox button{
+	width: 10%;
+	height: 28px;
+	border-radius: 29px;
+	-webkit-border-radius: 29px;
+	-moz-border-radius: 29px;
+	padding: 2px;
+	margin-left: 336px;
+}
+.main-content form .all-del button{
+	margin-left: 89%;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	margin-top: 10px;
+}
+.main-content form .title-article{
+	margin-bottom: 25px;
+}
+.main-content form .title-article input{
+	display: inline-block;
+	width: 60%;
+} 
+#article-content{
+	height: 500px;
+	resize: none;
+	margin-bottom: 25px;
+}
+#btn-submit{
+	margin-left: 93%;
+}
